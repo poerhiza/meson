@@ -175,7 +175,7 @@ composing native files. This composition is done by passing the command line
 argument multiple times:
 
 ```console
-meson setup builddir/ --cross-file first.ini --cross-file second.ini --cross-file thrid.ini
+meson setup builddir/ --cross-file first.ini --cross-file second.ini --cross-file third.ini
 ```
 
 In this case `first.ini` will be loaded, then `second.ini`, with values from
